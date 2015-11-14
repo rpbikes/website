@@ -1,0 +1,16 @@
+
+/*This css file will only effect elements outside the iframe*/
+
+
+/*This makes the iframe look as if it is on the page, you may now load all the pages at once for desktop devices....*/
+iframe { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  background-color: transparent;
+  border: 0px none transparent;
+  padding: 0px;
+  overflow: hidden;
+}
